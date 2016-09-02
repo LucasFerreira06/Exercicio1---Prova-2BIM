@@ -14,5 +14,3 @@ elif (Media >= 26 and Media <= 60):
     print("Turma Adulta!")
 elif (Media > 60):
     print("Turma Idosa!")
-
-
