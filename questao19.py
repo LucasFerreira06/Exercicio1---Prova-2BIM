@@ -6,7 +6,7 @@ Soma = 0
 Auxiliar = 1
 
 if((Numero > 0 and Numero <= 1000)or Numero == 1):
-    while (Auxiliar <= QtdNumeros):
+    for a in range(Auxiliar,QtdNumeros):
         if (Auxiliar < QtdNumeros):
             Numero = int(input("Digite um número:"))
         if (Numero > Maior):
