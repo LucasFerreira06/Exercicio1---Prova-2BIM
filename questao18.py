@@ -4,8 +4,7 @@ Maior = Numero
 Menor = Numero
 Soma = 0
 Auxiliar = 1
-
-while (Auxiliar <= QtdNumeros):
+for a in range(Auxiliar,QtdNumeros):
     if (Auxiliar < QtdNumeros):
         Numero = int(input("Digite um número:"))
     if (Numero > Maior):
